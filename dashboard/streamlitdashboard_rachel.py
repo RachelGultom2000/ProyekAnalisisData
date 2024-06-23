@@ -14,7 +14,7 @@ import streamlit as st
 
 @st.cache_resource
 def load_data():
-  ds_hour = pd.read_csv("../dataset/hour.csv")
+  ds_hour = pd.read_csv("../data/hour.csv")
   return ds_hour
 
 data = load_data()
